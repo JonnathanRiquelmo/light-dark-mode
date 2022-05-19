@@ -8,9 +8,9 @@ const textBox = document.getElementById('text-box');
 
 // Dark or Ligth Images
 function imageMode(color) {
-    image1.src = `/assets/undraw_proud_coder_${color}.svg`;
-    image2.src = `/assets/undraw_feeling_proud_${color}.svg`;
-    image3.src = `/assets/undraw_conceptual_idea_${color}.svg`;
+    image1.src = `../assets/undraw_proud_coder_${color}.svg`;
+    image2.src = `../assets/undraw_feeling_proud_${color}.svg`;
+    image3.src = `../assets/undraw_conceptual_idea_${color}.svg`;
 };
 
 // Dark Mode Styles
